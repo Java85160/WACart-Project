@@ -1,101 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-09T14:04:28Z" name="Default suite" finished-at="2022-08-09T14:06:47Z" duration-ms="139211">
+  <suite started-at="2022-08-13T09:00:47Z" name="Default suite" finished-at="2022-08-13T09:02:51Z" duration-ms="123542">
     <groups>
     </groups>
-    <test started-at="2022-08-09T14:04:28Z" name="Default test" finished-at="2022-08-09T14:06:47Z" duration-ms="139211">
+    <test started-at="2022-08-13T09:00:47Z" name="Default test" finished-at="2022-08-13T09:02:51Z" duration-ms="123542">
       <class name="com.WACart.qa.TestCases.HomePageTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:04:28Z" name="setup" finished-at="2022-08-09T14:04:40Z" duration-ms="12571" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:00:49Z" name="setup" finished-at="2022-08-13T09:00:55Z" duration-ms="5415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProduct()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:04:40Z" name="searchProduct" finished-at="2022-08-09T14:04:45Z" duration-ms="4831" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:00:55Z" name="searchProduct" data-provider="searchproduct" finished-at="2022-08-13T09:01:00Z" duration-ms="4939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:04:45Z" name="tearDown" finished-at="2022-08-09T14:04:46Z" duration-ms="862" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:00Z" name="tearDown" finished-at="2022-08-13T09:01:00Z" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:04:46Z" name="setup" finished-at="2022-08-09T14:04:57Z" duration-ms="11165" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:00Z" name="setup" finished-at="2022-08-13T09:01:07Z" duration-ms="6634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateCameraLink()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:04:57Z" name="validateCameraLink" finished-at="2022-08-09T14:05:02Z" duration-ms="4532" status="PASS">
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:07Z" name="searchProduct" data-provider="searchproduct" finished-at="2022-08-13T09:01:11Z" duration-ms="4240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:11Z" name="tearDown" finished-at="2022-08-13T09:01:12Z" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:12Z" name="setup" finished-at="2022-08-13T09:01:16Z" duration-ms="4181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:16Z" name="searchProduct" data-provider="searchproduct" finished-at="2022-08-13T09:01:20Z" duration-ms="4042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:20Z" name="tearDown" finished-at="2022-08-13T09:01:20Z" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:20Z" name="setup" finished-at="2022-08-13T09:01:24Z" duration-ms="4176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:24Z" name="searchProduct" data-provider="searchproduct" finished-at="2022-08-13T09:01:28Z" duration-ms="4050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:28Z" name="tearDown" finished-at="2022-08-13T09:01:29Z" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:29Z" name="setup" finished-at="2022-08-13T09:01:34Z" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchProduct(java.lang.String)[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:34Z" name="searchProduct" data-provider="searchproduct" finished-at="2022-08-13T09:01:38Z" duration-ms="4363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:38Z" name="tearDown" finished-at="2022-08-13T09:01:38Z" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:38Z" name="setup" finished-at="2022-08-13T09:01:43Z" duration-ms="4950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCameraLink()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:43Z" name="validateCameraLink" finished-at="2022-08-13T09:01:47Z" duration-ms="3907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCameraLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:02Z" name="tearDown" finished-at="2022-08-09T14:05:03Z" duration-ms="931" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:47Z" name="tearDown" finished-at="2022-08-13T09:01:48Z" duration-ms="385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:03Z" name="setup" finished-at="2022-08-09T14:05:13Z" duration-ms="10278" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:48Z" name="setup" finished-at="2022-08-13T09:01:52Z" duration-ms="4332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateDesktoplink()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:13Z" name="validateDesktoplink" finished-at="2022-08-09T14:05:17Z" duration-ms="4305" status="PASS">
+        <test-method signature="validateDesktoplink()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:52Z" name="validateDesktoplink" finished-at="2022-08-13T09:01:56Z" duration-ms="4078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDesktoplink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:17Z" name="tearDown" finished-at="2022-08-09T14:05:18Z" duration-ms="1071" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:56Z" name="tearDown" finished-at="2022-08-13T09:01:56Z" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:18Z" name="setup" finished-at="2022-08-09T14:05:29Z" duration-ms="10356" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:01:56Z" name="setup" finished-at="2022-08-13T09:02:00Z" duration-ms="4096" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateHomePage()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:29Z" name="validateHomePage" finished-at="2022-08-09T14:05:32Z" duration-ms="3790" status="PASS">
+        <test-method signature="validateHomePage()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:00Z" name="validateHomePage" finished-at="2022-08-13T09:02:04Z" duration-ms="3335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:32Z" name="tearDown" finished-at="2022-08-09T14:05:33Z" duration-ms="659" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:04Z" name="tearDown" finished-at="2022-08-13T09:02:04Z" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:33Z" name="setup" finished-at="2022-08-09T14:05:43Z" duration-ms="9802" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:04Z" name="setup" finished-at="2022-08-13T09:02:08Z" duration-ms="4191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateLaptopAndNotebooksLink()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:43Z" name="validateLaptopAndNotebooksLink" finished-at="2022-08-09T14:05:47Z" duration-ms="4602" status="PASS">
+        <test-method signature="validateLaptopAndNotebooksLink()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:08Z" name="validateLaptopAndNotebooksLink" finished-at="2022-08-13T09:02:12Z" duration-ms="3949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLaptopAndNotebooksLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:47Z" name="tearDown" finished-at="2022-08-09T14:05:48Z" duration-ms="872" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:12Z" name="tearDown" finished-at="2022-08-13T09:02:13Z" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:48Z" name="setup" finished-at="2022-08-09T14:05:58Z" duration-ms="9323" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:13Z" name="setup" finished-at="2022-08-13T09:02:17Z" duration-ms="3914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateNextkey()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:05:58Z" name="validateNextkey" finished-at="2022-08-09T14:06:01Z" duration-ms="3567" status="PASS">
+        <test-method signature="validateNextkey()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:17Z" name="validateNextkey" finished-at="2022-08-13T09:02:20Z" duration-ms="3577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNextkey -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:01Z" name="tearDown" finished-at="2022-08-09T14:06:02Z" duration-ms="727" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:20Z" name="tearDown" finished-at="2022-08-13T09:02:21Z" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:02Z" name="setup" finished-at="2022-08-09T14:06:12Z" duration-ms="10165" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:21Z" name="setup" finished-at="2022-08-13T09:02:25Z" duration-ms="4760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validatePrevkey()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:12Z" name="validatePrevkey" finished-at="2022-08-09T14:06:16Z" duration-ms="3684" status="PASS">
+        <test-method signature="validatePrevkey()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:25Z" name="validatePrevkey" finished-at="2022-08-13T09:02:29Z" duration-ms="3410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePrevkey -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:16Z" name="tearDown" finished-at="2022-08-09T14:06:17Z" duration-ms="741" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:29Z" name="tearDown" finished-at="2022-08-13T09:02:29Z" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:17Z" name="setup" finished-at="2022-08-09T14:06:27Z" duration-ms="10051" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:29Z" name="setup" finished-at="2022-08-13T09:02:33Z" duration-ms="4276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateWACartLogo()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:27Z" name="validateWACartLogo" finished-at="2022-08-09T14:06:30Z" duration-ms="3649" status="FAIL">
+        <test-method signature="validateWACartLogo()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:33Z" name="validateWACartLogo" finished-at="2022-08-13T09:02:39Z" duration-ms="5382" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
@@ -117,9 +200,9 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
 at com.WACart.qa.pages.HomePage.wacartLogo(HomePage.java:57)
-at com.WACart.qa.TestCases.HomePageTestCase.validateWACartLogo(HomePageTestCase.java:59)
+at com.WACart.qa.TestCases.HomePageTestCase.validateWACartLogo(HomePageTestCase.java:63)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -151,19 +234,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateWACartLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:30Z" name="tearDown" finished-at="2022-08-09T14:06:31Z" duration-ms="520" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:39Z" name="tearDown" finished-at="2022-08-13T09:02:39Z" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:31Z" name="setup" finished-at="2022-08-09T14:06:40Z" duration-ms="9700" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:39Z" name="setup" finished-at="2022-08-13T09:02:44Z" duration-ms="4948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validatesearchBox()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:40Z" name="validatesearchBox" finished-at="2022-08-09T14:06:46Z" duration-ms="5606" status="PASS">
+        <test-method signature="validatesearchBox()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:44Z" name="validatesearchBox" finished-at="2022-08-13T09:02:50Z" duration-ms="5594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatesearchBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@5ef5c734]" started-at="2022-08-09T14:06:46Z" name="tearDown" finished-at="2022-08-09T14:06:47Z" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WACart.qa.TestCases.HomePageTestCase@d771cc9]" started-at="2022-08-13T09:02:50Z" name="tearDown" finished-at="2022-08-13T09:02:51Z" duration-ms="1091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
